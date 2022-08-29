@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Body Wieght Manager</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="play_the_music">Play the Music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="male">Male</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="_00">00</string>
+    <string name="calculate_your_bmi">Calculate your BMI</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="calculate_bmi_again">Calculate BMI Again</string>
+</resources>

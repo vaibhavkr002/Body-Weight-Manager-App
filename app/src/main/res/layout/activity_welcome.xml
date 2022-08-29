@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk2"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="355dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/al"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttons"
+        android:backgroundTint="@color/purple"
+        android:elevation="30dp"
+        android:padding="10dp"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button2"
+        android:backgroundTint="@color/lightpurple"
+        android:elevation="30dp"
+        android:padding="10dp"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+</LinearLayout>

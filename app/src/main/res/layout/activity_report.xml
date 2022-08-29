@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ReportActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/yaxis"
+        android:hint="y-axix"
+        android:textColorHint="@color/darkpurple"
+        android:textSize="25dp"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert"
+        android:layout_gravity="center"
+        android:id="@+id/btn"/>
+
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="400dp"
+        android:id="@+id/graph" />
+
+</LinearLayout>

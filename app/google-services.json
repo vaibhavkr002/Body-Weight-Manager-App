@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1024038952122",
+    "project_id": "body-wieght-manager",
+    "storage_bucket": "body-wieght-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024038952122:android:2be7a8cbd1756da8e07683",
+        "android_client_info": {
+          "package_name": "com.vaibhavkr.bodywieghtmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024038952122-ms7vscato5l9i77svk1pg3tfptclhjpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQF90CPWnP3-f_CY6anmlQ3DI73gwSpvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024038952122-ms7vscato5l9i77svk1pg3tfptclhjpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
