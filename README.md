@@ -1,5 +1,5 @@
 # Body Weight Manager App 
-## Demo in thw video
+## Demo in the video
 
  - Used(Login/Sign up) Email/Password Authentication from Firebase Database.
  - Used Firebase Database
